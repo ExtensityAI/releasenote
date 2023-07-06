@@ -1,2 +1,2 @@
-# symchangelog
+# Release Note Expression
 ## <Project Description>
