@@ -4,12 +4,12 @@
     "description": "<Project Description>",
     "expressions": [
         {
-            "module": "src/releasenotes",
+            "module": "src/func",
             "type": "ReleaseNote"
         }
     ],
     "run": {
-        "module": "src/releasenotes",
+        "module": "src/func",
         "type": "ReleaseNote"
     },
     "dependencies": [
