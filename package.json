@@ -1,0 +1,18 @@
+{
+    "version": "0.0.1",
+    "name": "ExtensityAI/releasenotes",
+    "description": "<Project Description>",
+    "expressions": [
+        {
+            "module": "src/releasenotes",
+            "type": "ReleaseNote"
+        }
+    ],
+    "run": {
+        "module": "src/releasenotes",
+        "type": "ReleaseNote"
+    },
+    "dependencies": [
+        "ExtensityAI/symmail"
+    ]
+}
