@@ -13,5 +13,5 @@ class ReleaseNote(Expression):
 
     def forward(self, data, template: str = 'Markdown'):
         data = self._to_symbol(data)
-        self.fn.prompt.format(template=template)
+        self.fn.format(template=template)
         return self.fn(data)
