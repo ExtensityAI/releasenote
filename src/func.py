@@ -7,8 +7,8 @@ Write a {template} release note based on the changelog from the GitHub repositor
 
 
 class ReleaseNote(Expression):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.fn = Function(FUNCTION_DESCRIPTION)
 
     def forward(self, data, template: str = 'Markdown'):
